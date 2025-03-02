@@ -1,0 +1,26 @@
+[0.647s] Invoking command in '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg': PYTHONPATH=/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_car_pkg build --build-base /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build install --record /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/install.log --single-version-externally-managed install_data
+[0.878s] running egg_info
+[0.878s] writing ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/PKG-INFO
+[0.878s] writing dependency_links to ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/dependency_links.txt
+[0.878s] writing entry points to ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/entry_points.txt
+[0.878s] writing requirements to ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/requires.txt
+[0.878s] writing top-level names to ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/SOURCES.txt'
+[0.883s] writing manifest file '../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/SOURCES.txt'
+[0.884s] running build
+[0.884s] running build_py
+[0.886s] running install
+[0.887s] running install_lib
+[0.889s] running install_data
+[0.889s] copying launch/test_laneFollow.launch.py -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/launch
+[0.890s] running install_egg_info
+[0.891s] removing '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.891s] Copying ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg-0.0.0-py3.10.egg-info
+[0.892s] running install_scripts
+[0.909s] Installing computer_vision_node script to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+[0.910s] Installing sdc_V2 script to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+[0.910s] Installing spawner_node script to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+[0.910s] Installing upper_camera_recording script to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+[0.910s] Installing video_save script to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+[0.911s] writing list of installed files to '/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/install.log'
+[0.939s] Invoked command in '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg' returned '0': PYTHONPATH=/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_car_pkg build --build-base /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build install --record /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/install.log --single-version-externally-managed install_data

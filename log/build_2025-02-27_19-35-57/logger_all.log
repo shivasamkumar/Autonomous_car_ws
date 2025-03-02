@@ -1,0 +1,224 @@
+[0.299s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.300s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7af572b67430>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7af572b66da0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7af572b66da0>>, mixin_verb=('build',))
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.871s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shiva/Documents/autonomous_car_ws'
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ignore_ament_install'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_pkg']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_pkg'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'ros'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['cmake', 'python']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'cmake'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extensions ['python_setup_py']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data) by extension 'python_setup_py'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extensions ['colcon_pkg']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extension 'colcon_pkg'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extensions ['colcon_meta']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extension 'colcon_meta'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extensions ['ros']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extension 'ros'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extensions ['cmake', 'python']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extension 'cmake'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extension 'python'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extensions ['python_setup_py']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(data/Output) by extension 'python_setup_py'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg) by extension 'ignore_ament_install'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg) by extensions ['colcon_pkg']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg) by extensions ['colcon_meta']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg) by extension 'ros'
+[0.917s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_car_pkg' with type 'ros.ament_python' and name 'autonomous_car_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg_models) by extensions ['ignore', 'ignore_ament_install']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg_models) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg_models) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg_models) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg_models) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg_models) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg_models) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg_models) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_car_pkg_models) by extension 'ros'
+[0.919s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_car_pkg_models' with type 'ros.ament_cmake' and name 'autonomous_car_pkg_models'
+[0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.012s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/shiva/Documents/autonomous_car_ws/install
+[1.014s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/shiva/Documents/mohan_turtlrbot/install
+[1.016s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/shiva/Documents/robot_vehicle/install
+[1.016s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/shiva/Documents/bumperbot_wrkspc/install
+[1.017s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/shiva/Documents/robot_arm/install
+[1.020s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/shiva/Documents/wrk_spc/install
+[1.023s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/shiva/Documents/ros2_projects/robot_car_V2/install
+[1.025s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install
+[1.029s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 407 installed packages in /opt/ros/humble
+[1.034s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg' build argument 'cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg' build argument 'cmake_target' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.203s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.203s] DEBUG:colcon.colcon_core.verb:Building package 'autonomous_car_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg', 'merge_install': False, 'path': '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg_models' build argument 'cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg_models' build argument 'cmake_target' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg_models' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg_models' build argument 'cmake_clean_cache' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg_models' build argument 'cmake_clean_first' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg_models' build argument 'cmake_force_configure' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg_models' build argument 'ament_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg_models' build argument 'catkin_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'autonomous_car_pkg_models' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.205s] DEBUG:colcon.colcon_core.verb:Building package 'autonomous_car_pkg_models' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg_models', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models', 'merge_install': False, 'path': '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg_models', 'symlink_install': False, 'test_result_base': None}
+[1.205s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.207s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg' with build type 'ament_python'
+[1.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_car_pkg', 'ament_prefix_path')
+[1.217s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/hook/ament_prefix_path.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/hook/ament_prefix_path.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/hook/ament_prefix_path.sh'
+[1.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg_models' with build type 'ament_cmake'
+[1.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg_models'
+[1.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.121s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg'
+[2.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble PS1=(tf241env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg_models -- -j8 -l8
+[2.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble PS1=(tf241env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg_models -- -j8 -l8
+[2.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble PS1=(tf241env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg_models
+[2.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomous_car_pkg_models)
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models' for CMake module files
+[2.363s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models' for CMake config files
+[2.365s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_car_pkg_models', 'cmake_prefix_path')
+[2.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/hook/cmake_prefix_path.ps1'
+[2.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/hook/cmake_prefix_path.dsv'
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/hook/cmake_prefix_path.sh'
+[2.378s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/bin'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/lib/pkgconfig/autonomous_car_pkg_models.pc'
+[2.379s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/lib/python3.10/site-packages'
+[2.380s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/bin'
+[2.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.ps1'
+[2.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble PS1=(tf241env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg_models
+[2.386s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.dsv'
+[2.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.sh'
+[2.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.bash'
+[2.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.zsh'
+[2.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/colcon-core/packages/autonomous_car_pkg_models)
+[2.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomous_car_pkg_models)
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models' for CMake module files
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models' for CMake config files
+[2.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_car_pkg_models', 'cmake_prefix_path')
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/hook/cmake_prefix_path.ps1'
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/hook/cmake_prefix_path.dsv'
+[2.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/hook/cmake_prefix_path.sh'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/bin'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/lib/pkgconfig/autonomous_car_pkg_models.pc'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/lib/python3.10/site-packages'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/bin'
+[2.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.ps1'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.dsv'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.sh'
+[2.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.bash'
+[2.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/autonomous_car_pkg_models/package.zsh'
+[2.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg_models/share/colcon-core/packages/autonomous_car_pkg_models)
+[3.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg': PS1=(tf241env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_car_pkg build --build-base /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build install --record /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/install.log --single-version-externally-managed install_data
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg' for CMake module files
+[4.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiva/Documents/autonomous_car_ws/src/autonomous_car_pkg' returned '0': PS1=(tf241env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_car_pkg build --build-base /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build install --record /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/install.log --single-version-externally-managed install_data
+[4.307s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg' for CMake config files
+[4.312s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib'
+[4.313s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/bin'
+[4.313s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/pkgconfig/autonomous_car_pkg.pc'
+[4.314s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages'
+[4.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_car_pkg', 'pythonpath')
+[4.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/hook/pythonpath.ps1'
+[4.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/hook/pythonpath.dsv'
+[4.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/hook/pythonpath.sh'
+[4.324s] Level 1:colcon.colcon_core.environment:checking '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/bin'
+[4.324s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomous_car_pkg)
+[4.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/package.ps1'
+[4.327s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/package.dsv'
+[4.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/package.sh'
+[4.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/package.bash'
+[4.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/package.zsh'
+[4.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/colcon-core/packages/autonomous_car_pkg)
+[4.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.339s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.366s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.409s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/Documents/autonomous_car_ws/install/local_setup.ps1'
+[4.413s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiva/Documents/autonomous_car_ws/install/_local_setup_util_ps1.py'
+[4.422s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/Documents/autonomous_car_ws/install/setup.ps1'
+[4.435s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/Documents/autonomous_car_ws/install/local_setup.sh'
+[4.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiva/Documents/autonomous_car_ws/install/_local_setup_util_sh.py'
+[4.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/Documents/autonomous_car_ws/install/setup.sh'
+[4.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/Documents/autonomous_car_ws/install/local_setup.bash'
+[4.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/Documents/autonomous_car_ws/install/setup.bash'
+[4.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiva/Documents/autonomous_car_ws/install/local_setup.zsh'
+[4.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiva/Documents/autonomous_car_ws/install/setup.zsh'

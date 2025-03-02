@@ -1,0 +1,43 @@
+running egg_info
+writing ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/requires.txt
+writing top-level names to ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/top_level.txt
+reading manifest file '../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying autonomous_car_pkg/drive_node.py -> /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build/lib/autonomous_car_pkg
+copying autonomous_car_pkg/sdf_spawner.py -> /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build/lib/autonomous_car_pkg
+copying autonomous_car_pkg/computer_vision_node.py -> /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build/lib/autonomous_car_pkg
+copying autonomous_car_pkg/video_save.py -> /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build/lib/autonomous_car_pkg
+running install
+running install_lib
+copying /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build/lib/autonomous_car_pkg/drive_node.py -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg
+copying /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build/lib/autonomous_car_pkg/sdf_spawner.py -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg
+copying /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build/lib/autonomous_car_pkg/computer_vision_node.py -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg
+copying /home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/build/lib/autonomous_car_pkg/video_save.py -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg
+byte-compiling /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg/drive_node.py to drive_node.cpython-310.pyc
+byte-compiling /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg/sdf_spawner.py to sdf_spawner.cpython-310.pyc
+byte-compiling /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg/computer_vision_node.py to computer_vision_node.cpython-310.pyc
+byte-compiling /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg/video_save.py to video_save.cpython-310.pyc
+running install_data
+copying package.xml -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg
+creating /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/launch
+copying launch/world_gazebo.launch.py -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/launch
+creating /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+copying scripts/lights_spawner.bash -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+copying scripts/lights_spawner_maze.bash -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+creating /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/worlds
+copying worlds/sdc.world -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/worlds
+copying worlds/maze_solving.world -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/worlds
+copying worlds/Lane_follow_test.world -> /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/share/autonomous_car_pkg/worlds
+running install_egg_info
+removing '/home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/autonomous_car_pkg/autonomous_car_pkg.egg-info to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/python3.10/site-packages/autonomous_car_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing computer_vision_node script to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+Installing spawner_node script to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+Installing video_save script to /home/shiva/Documents/autonomous_car_ws/install/autonomous_car_pkg/lib/autonomous_car_pkg
+writing list of installed files to '/home/shiva/Documents/autonomous_car_ws/build/autonomous_car_pkg/install.log'
