@@ -93,6 +93,9 @@ python module_7.py
 ```
 ## Demo 
 
+![Demo Image](path/to/demo-image.png)  
+
+
 [![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
 
 
