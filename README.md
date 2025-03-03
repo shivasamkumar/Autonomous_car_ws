@@ -92,11 +92,13 @@ CarlaUE4.exe /Game/Maps/Course4 -windowed -carla-server -benchmark -fps=30
 python module_7.py
 ```
 ## Demo 
-
+The Demo trajectory of the autonomous vehicle and demonstrating , obstacle avoidance , dynamic and static and also sign recogonization
 ![Demo Image](trajectory.png)  
 
 
-[![Demo Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+The Video shows the demonstartion of the capabilities in carla simulator, **Please click on the image to watch the video**
+
+[![Demo Video](https://img.youtube.com/vi/vldQQFKg0iw/0.jpg)](https://youtu.be/vldQQFKg0iw?feature=shared)  
 
 
 
